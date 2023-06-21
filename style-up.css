@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.head {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    background-color: transparent;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    padding: 10px 30px;
+    background-color: transparent;
+}
+
+.logo {
+    font-size: 1.8em;
+    text-decoration: none;
+    /* text-transform: uppercase; */
+    font-weight: 300;
+    font-family: "Cinzel Decorative", cursive;
+    color: rgb(63, 6, 101);
+    width: 100%;
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+section {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.left {
+    flex: 6.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.sign {
+    font-weight: 300;
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 2.1em;
+    color: rgb(63, 6, 101);
+    margin-top: 0.5em;
+    margin-bottom: 10px;
+}
+
+.links {
+    background-color: white;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex: 0 10vh;
+    align-items: center;
+}
+
+.links div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links div a {
+    margin-right: 40px;
+}
+
+.suii {
+    margin-top: 10px;
+    font-family: "Mukta", sans-serif;
+    font-size: 1em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin: 15px 10px;
+}
+
+.text-input {
+    background-color: #FFFFFF;
+    border: 1px solid #D3DBE3;
+    padding: 14px 15px;
+    border-radius: 4px;
+    color: #1F3349;
+    width: 420px;
+    margin: 15px 0px
+}
+
+.left hr {
+    width: 8%;
+    height: 4px;
+    background-color: rgb(63, 6, 101);
+    border: 2px solid rgb(63, 6, 101);
+    border-radius: 30px;
+    margin: 15px 0px;
+}
+
+.sign-up {
+    background-color: rgb(63, 6, 101);
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(63, 6, 101);
+    border-radius: 12px;
+    text-decoration: none;
+    font-family: "Mukta", sans-serif;
+    font-size: 20px;
+    padding: 5px 0px;
+    margin: 15px 0px;
+    cursor: pointer;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+
+.sign-up:hover {
+    background: white;
+    color: rgb(63, 6, 101);
+    border-color: rgb(63, 6, 101);
+}
+
+form p {
+    color: red;
+    font-family: "Mukta", sans-serif;
+
+}
+
+/* -------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.right {
+    background-color: rgb(63, 6, 101);
+    flex: 3.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.up {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    /* translate: 0px -60px; */
+}
+
+.up p {
+    font-weight: 300;
+    font-family: "Cinzel Decorative", cursive;
+    font-size: 3.8em;
+}
+
+.up div {
+    font-size: 20px;
+    width: 130%;
+    text-align: center;
+    margin: 44px 0px;
+}
+
+.sign-in {
+    background-color: transparent;
+    color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 22px;
+    text-decoration: none;
+    font-family: "Mukta", sans-serif;
+    padding: 10px 35px;
+    transition-duration: 1s;
+    transition-delay: 0.2s;
+}
+
+.sign-in:hover {
+    background: white;
+    color: rgb(63, 6, 101);
+}
+
+
+
+.right hr {
+    width: 30%;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 30px;
+}
